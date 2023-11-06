@@ -1,16 +1,25 @@
-nav 
+.navbar
+  background-color: #333
   color: #fff
+  padding: 10px
 
+  .navbar-menu
+    list-style: none
+    padding: 0
+    display: flex
+    justify-content: center
 
-nav ul 
-  list-style: none
-  padding: 0
+    .navbar-item
+      margin: 0 10px
 
+      a
+        text-decoration: none
+        color: #fff
+        transition: color 0.2s
 
-nav li 
-  display: inline
-  margin-right: 20px
+        &:hover
+          color: #ff6600
 
-
-nav a 
-  text-decoration: none
+        &.active
+          font-weight: bold
+          color: #ff6600
