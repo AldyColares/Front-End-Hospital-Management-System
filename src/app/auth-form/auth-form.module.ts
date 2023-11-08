@@ -4,20 +4,20 @@ import { DoctorComponent } from './auth/doctor/doctor.component';
 import { DoctorRegisterComponent } from './register/doctor-register/doctor-register.component';
 
 import { MatButtonModule } from '@angular/material/button';
-import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
+import { MatFormFieldModule } from '@angular/material/form-field';
+
 
 @NgModule({
   declarations: [
     DoctorComponent,
     DoctorRegisterComponent
-   
   ],
   imports: [
     CommonModule,
     MatButtonModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
   ]
 })
 export class AuthFormModule { }
