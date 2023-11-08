@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
-import { AuthFormModule } from './auth-form/auth-form.module';
 import { LoginModule } from './login/login.module';
 import { RegistersModule } from './registers/registers.module';
 
@@ -17,7 +16,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    AuthFormModule,
     LoginModule,
     RegistersModule
   ],
